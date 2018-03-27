@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta name ="viewport" content="width=device-width,initial-scale=1">
+	<link rel="stylesheet" href=jquery.mobile-1.4.5.css/>
+	<link rel="stylesheet" href="jqm-simple-colorpicker.min.css">
+	<script src="jqm-simple-colorpicker.min.js"></script>
+	<script src=jquery.js></script>
+	<script src=jquery.mobile-1.4.5.js></script>
+	<script type = "text/javascript">
+
+	</script>
+</head>
+<body>
+<div data-role="page" id="win1">
+	<div data-role="header">
+		<h1> I. Program Kalkulator </h1>
+	</div>
+	<div data-role="content">
+		<form>
+		<div class="ui-field-contain">
+		    <label for="select-native-1">Go to page:</label>
+		    <select id="mySelect" onchange="gogo()">
+		        <option value="#win1">One</option>
+		        <option value="#win2">Two</option>
+		        <option value="#win3">Three</option>
+		    </select>
+		    
+		</div>
+		</form>
+
+		
+		
+	</div>
+
+</div>
+<div data-role="page" id="win2">
+
+	<div data-role="header">
+		<h1> II. Program RGB </h1>
+	</div>
+	<div data-role=content>
+		<form>
+		<div class="ui-field-contain">
+		    <label for="select-native-1">Go to page:</label>
+		    <select id="mySelect1" onchange="gogo1()">
+		        <option value="#win1">One</option>
+		        <option value="#win2">Two</option>
+		        <option value="#win3">Three</option>
+		    </select>
+		    
+		</div>
+		</form>
+		<a id="button" href="#picker" data-rel=<a href="https://www.jqueryscript.net/tags.php?/popup/">popup <class="ui-btn ui-btn-inline">Pick color</a>
+		<div id="picker" data-role="colorpicker" data-transition="turn">Test</div>
+	</div>
+</div>
+<div data-role="page" id="win3">
+
+	<div data-role="header">
+		<h1> III. Rangkuman Materi </h1>
+	</div>
+	<div data-role=content>
+		<form>
+		<div class="ui-field-contain">
+		    <label for="select-native-1">Go to page:</label>
+		    <select id="mySelect1" onchange="gogo1()">
+		        <option value="#win1">One</option>
+		        <option value="#win2">Two</option>
+		        <option value="#win3">Three</option>
+		    </select>
+		    
+		</div>
+		</form>
+
+	</div>
+</div>
+</body>
+</html>
